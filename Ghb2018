@@ -25,3 +25,4 @@ else
 fi
 sudo npm install -g --unsafe-perm node-gyp homebridge hap-nodejs
 sudo npm install -g homebridge-mqtt-switch-tasmota
+sudo npm install -g homebridge-mqtt-motion-sensor-tasmota
