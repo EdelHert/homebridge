@@ -1,4 +1,7 @@
 cd /home/pi
+sudo rm -r /usr/local/lib/node_modules
+sudo rm -r /usr/local/lib/n
+sudo rm -r /usr/lib/node_modules
 sudo apt-get update
 sudo apt-get remove node nodejs nodejs-legacy -y
 sudo npm cache clean -f
