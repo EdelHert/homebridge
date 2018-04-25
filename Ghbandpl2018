@@ -28,4 +28,4 @@ else
     sudo n 9.11.1
 fi
 sudo npm install -g --unsafe-perm node-gyp homebridge hap-nodejs
-sudo npm install -g homebridge-mqtt-switch-tasmota homebridge-mqtt-motion-sensor-tasmota homebridge-zp homebridge-weather
+sudo npm install -g homebridge-mqtt-switch-tasmota homebridge-mqtt-motion-sensor-tasmota homebridge-zp homebridge-weather homebridge-config-ui-x
