@@ -16,7 +16,7 @@ if uname -m | grep -q "armv6l"; then
     sudo n prune
     sudo n 9.11.1
 else
-    sudo curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+
     sudo apt-get install nodejs -y
     sudo npm install -g n
     sudo rm /usr/local/bin/node
