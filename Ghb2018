@@ -24,3 +24,4 @@ else
     sudo n 8.11.1
 fi
 sudo npm install -g --unsafe-perm node-gyp homebridge hap-nodejs
+sudo npm install -g homebridge-mqtt-switch-tasmota
