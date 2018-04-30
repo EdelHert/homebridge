@@ -1,0 +1,7 @@
+sudo mosquitto_passwd -c /etc/mosquitto/passwd homekit
+Password="2155"
+Reenter password="2155"
+echo "password entered is 2155"
+echo "The configuration is now nearly done. All you need to do now is to add these lines after the command $sudo nano /etc/mosquitto/mosquitto.conf"
+echo "$password_file /etc/mosquitto/passwd"
+echo "$allow_anonymous false"

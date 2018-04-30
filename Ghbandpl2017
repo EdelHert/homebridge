@@ -1,3 +1,0 @@
-sudo mosquitto_passwd -c /etc/mosquitto/passwd homekit
-2155
-2155
