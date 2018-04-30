@@ -1,4 +1,3 @@
-fd
 sudo mosquitto_passwd -c /etc/mosquitto/passwd homekit
 "Password": "$2155"
 "Reenter password": "$2155"
